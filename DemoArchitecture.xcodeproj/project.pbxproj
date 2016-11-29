@@ -15,6 +15,7 @@
 		CE9288801DED203F00D46A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE92887E1DED203F00D46A52 /* LaunchScreen.storyboard */; };
 		CE92888B1DED203F00D46A52 /* DemoArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92888A1DED203F00D46A52 /* DemoArchitectureTests.swift */; };
 		CE9288961DED203F00D46A52 /* DemoArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9288951DED203F00D46A52 /* DemoArchitectureUITests.swift */; };
+		CE9288A71DED21F000D46A52 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9288A61DED21F000D46A52 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE9288911DED203F00D46A52 /* DemoArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9288951DED203F00D46A52 /* DemoArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoArchitectureUITests.swift; sourceTree = "<group>"; };
 		CE9288971DED203F00D46A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9288A61DED21F000D46A52 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		CE9288711DED203F00D46A52 /* DemoArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				CE9288A51DED218E00D46A52 /* View */,
+				CE9288A41DED218A00D46A52 /* Models */,
+				CE9288A31DED217D00D46A52 /* ViewModels */,
 				CE9288721DED203F00D46A52 /* AppDelegate.swift */,
-				CE9288741DED203F00D46A52 /* ViewController.swift */,
-				CE9288761DED203F00D46A52 /* Main.storyboard */,
 				CE92887C1DED203F00D46A52 /* Assets.xcassets */,
 				CE92887E1DED203F00D46A52 /* LaunchScreen.storyboard */,
 				CE9288811DED203F00D46A52 /* Info.plist */,
@@ -126,6 +129,30 @@
 				CE9288971DED203F00D46A52 /* Info.plist */,
 			);
 			path = DemoArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		CE9288A31DED217D00D46A52 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE9288A41DED218A00D46A52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE9288A51DED218E00D46A52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9288741DED203F00D46A52 /* ViewController.swift */,
+				CE9288761DED203F00D46A52 /* Main.storyboard */,
+				CE9288A61DED21F000D46A52 /* ChatViewController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +291,7 @@
 			files = (
 				CE9288751DED203F00D46A52 /* ViewController.swift in Sources */,
 				CE92887B1DED203F00D46A52 /* DemoArchitecture.xcdatamodeld in Sources */,
+				CE9288A71DED21F000D46A52 /* ChatViewController.swift in Sources */,
 				CE9288731DED203F00D46A52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
